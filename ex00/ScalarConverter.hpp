@@ -16,7 +16,6 @@ private:
 
 public:
 	static void		convert( std::string input );
-	static void		printValues(double baseValue, bool isPossible, bool isPseudo, const std::string& input);
 };
 
 #endif

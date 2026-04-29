@@ -23,7 +23,7 @@ ScalarConverter& ScalarConverter::operator=(const ScalarConverter& other)
 	return *this;
 }
 
-void ScalarConverter::printValues(double baseValue, bool isPossible, bool isPseudo, const std::string& input)
+void printValues(double baseValue, bool isPossible, bool isPseudo, const std::string& input)
 {
 	std::cout << "char: ";
 	if (isPseudo || !isPossible ||
